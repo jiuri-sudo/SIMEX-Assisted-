@@ -1,4 +1,4 @@
-log_dir <- "F:/SDU/MCcode/real_data/simulation_jinzhan"  
+log_dir <- "F:/MCcode/real_data/simulation_jinzhan"  
 if(!dir.exists(log_dir)) dir.create(log_dir)  
 log_file <- file.path(log_dir, paste0("MC_run_", Sys.Date(), ".txt"))
 library(parallel)
